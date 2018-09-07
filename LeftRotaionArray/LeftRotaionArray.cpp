@@ -23,13 +23,13 @@ int main ()
    
 	 //stroring the elements after d from array1 into array2
 
-		for( i=0,j=d; i<j, j<n;i++,j++)
-    arr2[i]=arr[j];
+    for( i=0,j=d; i<j, j<n;i++,j++)
+  	arr2[i]=arr[j];
 
 	//now here we are first d element from array1 into array2 in remaining spaces 
     for(j=0;i<n,j<d;i++,j++)
-    arr2[i]=arr[j];
+       arr2[i]=arr[j];
     
-for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++)
     cout<<arr2[i]<<" ";
 }
